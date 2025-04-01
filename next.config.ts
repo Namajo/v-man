@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
 };
 
 module.exports = {
-  allowedDevOrigins: ['vm-debian-webserver', '192.168.0.78'],
+  allowedDevOrigins: ['vm-debian-webserver', '192.168.0.78', 'localhost', '10.64.132.26'],
   crossOrigin: 'anonymous',
 }
 
